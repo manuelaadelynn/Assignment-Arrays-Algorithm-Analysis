@@ -92,3 +92,21 @@ Selain itu, juga dibahas perbandingan beberapa *growth factor* serta dampaknya t
 
 ## Compilation
 Program dikompilasi menggunakan **g++ dengan standar C++17** serta opsi peringatan tambahan.
+Karena pengujian dilakukan menggunakan **Windows PowerShell**, perintah kompilasi yang digunakan adalah:
+
+g++ -std=c++17 -Wall -Wextra problem2.cpp -o problem2
+g++ -std=c++17 -Wall -Wextra problem3.cpp -o problem3
+
+Untuk menjalankan program di Windows PowerShell:
+
+.\problem2
+.\problem3
+
+---
+
+## Known Issues or Limitations
+- Tidak ditemukan *memory leak* pada kedua program setelah pengujian.
+- Implementasi *Binary Search* pada Problem 3 mengasumsikan bahwa array sudah terurut, yang pada program ini dipastikan oleh fungsi pembuat array (*generator*).
+
+## Time Spent
+Sekitar **8 jam** digunakan untuk menyelesaikan keseluruhan assignment, termasuk analisis algoritma, implementasi kode, pengujian, serta proses *debugging*.
