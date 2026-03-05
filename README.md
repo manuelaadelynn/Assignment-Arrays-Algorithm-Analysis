@@ -13,9 +13,9 @@ Assignment ini terdiri dari empat problem yang menggabungkan **analisis teoritis
 
 ---
 
-## Deskripsi Problem
+## Deskripsi Masalah
 
-### Problem 1 – Analisis Algoritma
+### Problem 1 – Algorithm Analysis
 Pada bagian ini dilakukan analisis terhadap beberapa potongan kode (*algorithm snippets*). Untuk setiap potongan kode, ditentukan:
 
 - *Operation cost*
@@ -52,7 +52,7 @@ Tabel tersebut menampilkan indeks, nilai elemen, serta ukuran (*size*) dan kapas
 
 ---
 
-### Problem 3 – Perbandingan Linear Search dan Binary Search
+### Problem 3 – Linear Search vs. Binary Search
 Program ini membandingkan dua algoritma pencarian yang umum digunakan dan diimplementasikan secara iteratif:
 
 - **Linear Search** – melakukan pencarian secara berurutan dengan kompleksitas waktu **O(n)**
