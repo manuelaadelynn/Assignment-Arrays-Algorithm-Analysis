@@ -95,11 +95,13 @@ Program dikompilasi menggunakan **g++ dengan standar C++17** serta opsi peringat
 Karena pengujian dilakukan menggunakan **Windows PowerShell**, perintah kompilasi yang digunakan adalah:
 
 g++ -std=c++17 -Wall -Wextra problem2.cpp -o problem2
+
 g++ -std=c++17 -Wall -Wextra problem3.cpp -o problem3
 
 Untuk menjalankan program di Windows PowerShell:
 
 .\problem2
+
 .\problem3
 
 ---
